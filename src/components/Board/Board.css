@@ -1,0 +1,24 @@
+.board {
+  background-color: aliceblue;
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 15px rgb(160, 121, 23);
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.board__piece {
+  border: 1px solid rgb(255, 217, 0);
+  flex: 1 0 31%;
+  height: 123px;
+  background-color: #999;
+}
+
+
+.board__piece:hover {
+  border: 1px solid #999;
+  background-color: rgb(255, 217, 0);
+}
