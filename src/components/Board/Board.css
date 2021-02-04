@@ -15,6 +15,10 @@
   flex: 1 0 31%;
   height: 123px;
   background-color: #999;
+  font-size: 5.5rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  cursor: pointer;
 }
 
 
