@@ -177,14 +177,43 @@ function App() {
     } 
     
     //4,5,6
-    if (board.piece4 === board.piece5 && board.piece5 === board.piece6 && board.piece4 !== 0)  {
+    else if (board.piece4 === board.piece5 && board.piece5 === board.piece6 && board.piece4 !== 0)  {
       console.log(`${player.currentPlayer} wins!`);
     } 
 
     //7,8,9
-    if (board.piece7 === board.piece8 && board.piece8 === board.piece9 && board.piece7 !== 0)  {
+    else if (board.piece7 === board.piece8 && board.piece8 === board.piece9 && board.piece7 !== 0)  {
       console.log(`${player.currentPlayer} wins!`);
     } 
+
+    //1, 4, 7
+    else if (board.piece1 === board.piece4 && board.piece4 === board.piece7 && board.piece1 !== 0)  {
+      console.log(`${player.currentPlayer} wins!`);
+    } 
+
+    //2, 5, 8
+    else if (board.piece2 === board.piece5 && board.piece5 === board.piece8 && board.piece2 !== 0)  {
+      console.log(`${player.currentPlayer} wins!`);
+    } 
+
+    //3, 6, 9
+    else if (board.piece3 === board.piece6 && board.piece6 === board.piece9 && board.piece3 !== 0)  {
+      console.log(`${player.currentPlayer} wins!`);
+    } 
+
+    //1, 5, 9
+    else if (board.piece1 === board.piece5 && board.piece5 === board.piece9 && board.piece1 !== 0)  {
+      console.log(`${player.currentPlayer} wins!`);
+    }
+    
+    //3, 5, 7
+    else if (board.piece3 === board.piece5 && board.piece5 === board.piece7 && board.piece3 !== 0)  {
+      console.log(`${player.currentPlayer} wins!`);
+    } 
+
+    else {
+      console.log('test');
+    }
   }
 
   return (
