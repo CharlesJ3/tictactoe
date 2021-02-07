@@ -6,11 +6,11 @@ import Board from '../Board/Board'
 const GameArea = ({checkMove, updatePieceVisual, board, currentPlayer}) => {
   return (
     <div className="gameArea">
-      <Board 
-        checkMove={checkMove} 
+      <Board
+        checkMove={checkMove}
         updatePieceVisual={updatePieceVisual}
-        board={board} 
-        currentPlayer={currentPlayer} 
+        board={board}
+        currentPlayer={currentPlayer}
       />
       <Score />
     </div>

@@ -1,0 +1,15 @@
+@keyframes fade {
+  from { opacity: 0 }
+  to { opacity: 100% }
+}
+
+.noticeArea {
+  transition: opacity 2s;
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  width: 50vw;
+  margin: 0 auto;
+  animation: fade 3s forwards 1 ease-in normal;
+}
+
